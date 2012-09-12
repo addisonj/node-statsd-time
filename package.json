@@ -1,0 +1,25 @@
+{
+  "name": "statsd-time",
+  "version": "0.0.1",
+  "description": "Leverage nodetime to push samples to statsd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/addisonj/node-statsd-time.git"
+  },
+  "keywords": [
+    "nodetime",
+    "profiler",
+    "statsd",
+    "metrics"
+  ],
+  "author": "addisonj <addisonj@gmail.com> (github.com/addisonj)",
+  "license": "BSD",
+  "dependencies": {
+    "nodetime": "~0.4.7",
+    "statsd-client": "0.0.4"
+  }
+}
